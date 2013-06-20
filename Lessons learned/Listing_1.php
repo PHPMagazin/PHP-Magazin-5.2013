@@ -1,0 +1,1 @@
+// Implementierung des MessageBrokerInterface holen$broker = message_broker_get();$message_body = json_encode(array('foo' => 'bar'));// Nachricht an Exchange Warenwirtschaft senden ...$broker->sendMessage($message_body, 'Warenwirtschaft', array(  'routing_key' => 'product.update.lagerX.kategorieY',   'content_type' => 'application/json'));

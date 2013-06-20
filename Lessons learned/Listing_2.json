@@ -1,0 +1,1 @@
+{  "exchanges": [{    "name": "Warenwirtschaft",    "type": "topic",    "durable": true,    "auto_delete": false,  }],  "queues": [{    "name": "Shopsystem1",    "durable": true,    "exclusive": true,    "auto_delete": false,    "bindings": [{      "exchange": "Warenwirtschaft",      "routing_key": "produkt.*.lagerX.#"    }]  }]}
