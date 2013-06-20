@@ -1,0 +1,1 @@
+public function testGetWeatherLogs(){  $logger = \Phake::mock('Qafoo\\Weather\\Logger');  $loader = new Loader($logger);  $locatedWeather = $loader->getWeatherForLocation(    new Struct\Location( 'Berlin', 'Germany' )  );  \Phake::verify($logger)->log('Fetched weather for Berlin Germany.');}
