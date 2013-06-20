@@ -1,0 +1,1 @@
+$this->getRequest()->setMethod('POST')  ->setPost(    'login',     array(      'username' => 'your@email.com',      'password' => 'yourPassword',    ));$this->dispatch('customer/account/loginPost');

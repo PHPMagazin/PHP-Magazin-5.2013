@@ -1,0 +1,1 @@
+<config>  <global>    <models>      <yourcompany_yourmodule>        <class>YourCompany_YourModule_Modell</class>      </yourcompany_yourmodule>    </models>    <!-- ... -->  </global>  <!-- ... --></config>

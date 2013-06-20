@@ -1,0 +1,1 @@
+class DemoTest extends MageTest_PHPUnit_Framework_TestCase {  public function testGetModel()  {    $this->assertInstanceOf(      'Mage_Catalog_Model_Category',      Mage::getModel('catalog/category')    );  }}

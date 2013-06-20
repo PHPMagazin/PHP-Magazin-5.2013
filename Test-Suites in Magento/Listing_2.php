@@ -1,0 +1,1 @@
+class YourCompany_YourModule_Test_Config_Main extends EcomDev_PHPUnit_Test_Case_Config {  public function testModelAlias(){    $this->assertModelAlias(      'yourcompany_yourmodule/some_model',      'YourCompany_YourModule_Model_Some_Model'    );  }}
