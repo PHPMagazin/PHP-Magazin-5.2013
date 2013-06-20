@@ -1,0 +1,1 @@
+Morris.Bar({  element: "browser-statistics",  barColors: ["rgba(220,220,220,0.8)", "rgba(151,187,205,0.8)"],  data: data,  xkey: "browser",  ykeys: ["oldSite", "newSite"],  labels: ["a.example.com", "b.example.com"]});

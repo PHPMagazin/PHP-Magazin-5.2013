@@ -1,0 +1,1 @@
+var data = [  {browser: "Explorer", oldSite: 10917, newSite: 13927},  {browser: "Opera", oldSite: 1464, newSite: 2464},  {browser: "Safari", oldSite: 652, newSite: 152},  {browser: "Konqueror", oldSite: 474, newSite: 1474},  {browser: "Mozilla", oldSite: 19114, newSite: 14144},  {browser: "Chrome", oldSite: 23456, newSite: 28456}];
