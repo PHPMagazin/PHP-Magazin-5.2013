@@ -1,0 +1,1 @@
+Feature: User featureScenario: A user should be load successful  Given I am authenticated with login "admin" and password "admin"   When I load a user with id "4711"   Then I should see a user with id "4711" and name "Foobar"

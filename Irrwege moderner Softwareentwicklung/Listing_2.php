@@ -1,0 +1,1 @@
+$request  = json_decode($GLOBALS['HTTP_RAW_POST_DATA'], true);$response  = $request;unset( $response['data'] );$class    = new ReflectionClass($request['action']);$method  = $class->getMethod($request['method']);$instance = $class->newInstance();$response['result']   = $method->invokeArgs($instance, $request['data'] ?: array());echo json_encode($response);
