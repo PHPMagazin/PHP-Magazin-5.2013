@@ -1,0 +1,1 @@
+// --- PHPecho "Hallo ";sleep(1); // aktives Wartenecho "Welt";// Ausgabe: "Hallo Welt"// --- JavaScriptsetTimeout(function() {  console.log('Hallo ');}, 1000);console.log('Welt');// Ausgabe: ?

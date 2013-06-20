@@ -1,0 +1,1 @@
+// "Self-executing anonymous function"(function (window) {  // code}(this));// "Immediately Invoked Function Expression"var myApp = (function MyApp(window) {  var secret = 42;  return {    getSecret: function () {      return secret;    }  };}(this));myApp.getSecret(); // 42

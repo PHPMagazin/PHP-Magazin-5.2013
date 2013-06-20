@@ -1,0 +1,1 @@
+// "Model-backed Views"var todoModel = new Todo({title: 'buy milk', completed: false}),    todoView  = new TodoView({model: todoModel});// "Markup-driven Views"{{view TodoView}}  {{=model.title}}{{/view}}
