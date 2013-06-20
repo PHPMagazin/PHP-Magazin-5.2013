@@ -1,0 +1,1 @@
+function lmbWfl_0($wfl_inst, $active_task, $gtabid = null, $ID = null, $params = null) {  if ($params['showElements']) {    $hist = lmb_wfl_getHistory(1, $wfl_inst);    myExt_showElements($hist);  } else {    // start workflow    return 0;  }}
